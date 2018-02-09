@@ -1,9 +1,12 @@
+html {
+  font-family: "muktamahee-regular", sans-serif;
+}
+
 h1{
   font-size: 40px;
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
-  font-family: "muktamahee-regular", sans-serif;
 }
 
 h2 {
@@ -12,14 +15,12 @@ h2 {
   background-color:#b3ffff;
   padding-top: 15px;
   padding-bottom: 15px;
-  font-family: "muktamahee-regular", sans-serif;
 }
 
 .aboutme {
   background-color:#b3ffff;
   text-align: center;
   margin-bottom: 10px;
-  font-family: "muktamahee-regular", sans-serif;
 }
 
 .linksClass {
@@ -28,7 +29,6 @@ h2 {
   padding-top: 5px;
   padding-bottom: 5px;
   margin-left: 10px;
-  font-family: "muktamahee-regular", sans-serif;
 }
 
 .button {
@@ -45,7 +45,6 @@ h2 {
   width: 75px;
   text-align: center;
   line-height: 50px;
-  font-family: "muktamahee-regular", sans-serif;
 
   margin:0 auto;
   top:50%;
@@ -57,7 +56,6 @@ h2 {
   text-align: center;
   margin-left: 100px;
   margin-right: 100px;
-  font-family: "muktamahee-regular", sans-serif;
 }
 
 .copyright {
@@ -66,5 +64,4 @@ h2 {
   color:white;
   line-height: 50px;
   vertical-align: middle;
-  font-family: "muktamahee-regular", sans-serif;
 }
