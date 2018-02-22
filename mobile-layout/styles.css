@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'merriweatherregular';
+    src: url('fonts/merriweather-regular-webfont.eot');
+    src: url('fonts/merriweather-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/merriweather-regular-webfont.woff2') format('woff2'),
+         url('fonts/merriweather-regular-webfont.woff') format('woff'),
+         url('fonts/merriweather-regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.navbar {
+  background-color: black;
+  height:50px;
+  line-height: 50px;
+}
+
+span {
+  color:yellow;
+}
+
+.navlinks {
+  color:white;
+  vertical-align: middle;
+  margin:5px 5px;
+  padding-left: 15px;
+
+}
+
+h1{
+  font-size: 3em;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.par {
+  font-size: 2em;
+}
+
+.twinpars {
+  font-size: 1.1em;
+}
+
+.button{
+  color:black;
+}
+
+.btn:hover {
+  opacity: 0.5;
+}
+
+.btn{
+  position:relative;
+  color:black;
+  border: solid 1px black;
+  border-radius: 12%;
+  height: 50px;
+  width: 75px;
+  text-align: center;
+  line-height: 50px;
+
+  margin:0 auto;
+  margin-top: 30px;
+}
+
+.middlecontainer {
+  background-color:lightgray;
+  height: 350px;
+  text-align: center;
+}
+
+#avi {
+  color:white;
+  font-size: 33px;
+  line-height:50px;
+  vertical-align: middle;
+  position:absolute;
+  right:15px;
+}
+
+.bottomflexcontainer {
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.twincontainers {
+  width:30%;
+  height:auto;
+  text-align: center;
+}
+
+#key {
+  font-size: 30px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.bottombtn{
+  position:relative;
+  color:black;
+  border: solid 1px black;
+  border-radius: 12%;
+  height: 50px;
+  width: 75px;
+  text-align: center;
+  line-height: 50px;
+
+  margin:0 auto;
+  margin-top: 25px;
+
+}
+
+.bottombtn:hover {
+  color:blue;
+  opacity: 0.5;
+}
+
+@media all and (max-width:768px) {
+  .twincontainers {
+    width:100%;
+    height:auto;
+  }
+
+  h1 {
+    font-size: 2.7em;
+  }
+
+  .par {
+    font-size: 1.8em;
+  }
+}
