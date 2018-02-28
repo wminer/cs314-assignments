@@ -9,6 +9,62 @@
     <title>CS 314 HTML Form Assignment</title>
   </head>
   <body>
-    <!-- Body content goes here -->
+      <header>
+        <h1>
+          Hello There.
+        </h1>
+        <h2>
+          Tell me a little bit about yourself
+        </h2>
+      </header>
+    <section class="forminputs">
+      <label> First Name
+        <input name="firstname" type="text" placeholder="Enter your first name">
+      </label>
+      <label> Last name
+        <input name="lastname" type="text" placeholder="Enter your last name">
+      </label>
+      <label> Email
+        <input name="email" type="email" placeholder="Enter your email">
+      </label>
+      <label> Birthday Month
+        <input name="month" type="number" placeholder="Enter your birth month">
+      </label>
+      <label> Birthday Year
+        <input name="year" type="number" placeholder="Enter your birth year">
+      </label>
+      <div>
+        Do you have any pets?
+      </div>
+      <div class="radio-container">
+        <label> Cat(s)
+          <input name="pets" type="radio" value="Cat">
+        </label>
+        <label> Dog(s)
+          <input name="pets" type="radio" value="Dog">
+        </label>
+        <label> Other
+          <input name="pets" type="radio" value="Other">
+        </label>
+        <label> None
+          <input name="pets" type="radio" value="None">
+        </label>
+      </div>
+      <div style="padding:5px">
+        If you chose 'Other', please elaborate.
+      </div>
+        <textarea cols="30" rows="7" maxlength="200">
+        </textarea>
+      <label> Level of Education
+        <select name="levelofed">
+          <option> High School Graduate </option>
+          <option> College Graduate (Undergrad) </option>
+          <option> College Graduate (Postgrad) </option>
+          <option> College Graduate (Doctorate) </option>
+          <option> None of the above </option>
+        </select>
+      </label>
+      <input type="submit">
+    </section>
   </body>
 </html>
