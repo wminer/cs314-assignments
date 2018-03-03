@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'merriweatherregular';
+    src: url('fonts/merriweather-regular-webfont.eot');
+    src: url('fonts/merriweather-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/merriweather-regular-webfont.woff2') format('woff2'),
+         url('fonts/merriweather-regular-webfont.woff') format('woff'),
+         url('fonts/merriweather-regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html, body {
+  font-size: 16;
+  max-width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
