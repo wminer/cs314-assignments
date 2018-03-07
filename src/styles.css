@@ -10,9 +10,246 @@
 
 }
 
+@font-face {
+    font-family: 'latoregular';
+    src: url('fonts/lato-regular-webfont.eot');
+    src: url('fonts/lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/lato-regular-webfont.woff2') format('woff2'),
+         url('fonts/lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'opensansregular';
+    src: url('fonts/opensans-regular-webfont.eot');
+    src: url('fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('fonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'apple-sd-gothic-neoregular';
+    src: url('fonts/apple-sd-gothic-neo-regular-5a9f77e72cb1a-webfont.eot');
+    src: url('fonts/apple-sd-gothic-neo-regular-5a9f77e72cb1a-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/apple-sd-gothic-neo-regular-5a9f77e72cb1a-webfont.woff2') format('woff2'),
+         url('fonts/apple-sd-gothic-neo-regular-5a9f77e72cb1a-webfont.woff') format('woff'),
+         url('fonts/apple-sd-gothic-neo-regular-5a9f77e72cb1a-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 html, body {
   font-size: 16;
+  font-family: apple-sd-gothic-neoregular;
   max-width: 100%;
   height: 100%;
   overflow-x: hidden;
+}
+
+.full-page-background {
+  position:fixed;
+  height:100%;
+  width:100%;
+  background-image: url("seattle-skyline.JPG");
+  background-size: cover;
+}
+
+html, body {
+  background:rgba(0,0,0,0.45);
+}
+
+
+.page-content-container {
+  position:relative;
+  text-align: center;
+  color:white;
+}
+
+header {
+  width:100%;
+}
+nav {
+  overflow: hidden;
+  position: relative;
+  top:0;
+  width:100%;
+}
+
+footer {
+  overflow: hidden;
+  position: fixed;
+  bottom:0;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+nav a {
+  font-size: 1.5em;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+footer a {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color:white;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor:pointer;
+  color:#FFD700;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:active {
+  color:#FFD700;
+  text-decoration: none;
+}
+
+.nav-flex-container {
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+  width:100%;
+  margin-bottom: 10px;
+}
+
+.footer-flex-container {
+  justify-content:space-around;
+  align-items: center;
+  width:100%;
+}
+
+.fab {
+  padding: 20px;
+  width: 24px;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fab:hover {
+  text-decoration: none;
+  color: black;
+  transition: all 0.5s ease;
+}
+
+.social-link:hover {
+  cursor:pointer;
+}
+
+.fa-instagram {
+  background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+  color:white;
+}
+
+.fa-soundcloud {
+  background: #ff7700;
+  color:white;
+}
+
+.fa-linkedin-in {
+  background: #0077B5;
+  color:white;
+}
+
+h1 {
+  font-size: 1.6em;
+}
+
+h2 {
+  font-size:1.3em;
+}
+
+h3 {
+  font-size: 1.15;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.text-container {
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-bottom: 50px;
+  opacity:0;
+  -webkit-animation: fadein 1s 0.3s forwards; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 1s 0.3s forwards; /* Firefox < 16 */
+  -ms-animation: fadein 1s 0.3s forwards; /* Internet Explorer */
+  -o-animation: fadein 1s 0.3s forwards; /* Opera < 12.1 */
+  animation: fadein 1s 0.3s forwards;
+  transition: all 0.5s ease;
+}
+
+.title-container {
+  padding-left: 75px;
+  padding-right: 75px;
+  margin-top: 155px;
+  opacity: 0;
+  -webkit-animation: fadein 2s 3s forwards; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s 3s forwards; /* Firefox < 16 */
+  -ms-animation: fadein 2s 3s forwards; /* Internet Explorer */
+  -o-animation: fadein 2s 3s forwards; /* Opera < 12.1 */
+  animation: fadein 2s 3s forwards;
+  transition: all 0.5s ease;
+}
+
+.title {
+  padding: 5px;
+}
+
+.title-container:hover {
+  text-decoration: none;
+  color:#FFD700;
+}
+
+.text-container:hover {
+  text-decoration: none;
+  color:#FFD700;
 }
