@@ -10,9 +10,22 @@
 
 }
 
+@font-face {
+    font-family: 'apple-sd-gothic-neoregular';
+    src: url('fonts/apple-sd-gothic-neo-regular-5a9f77e72cb1a-webfont.eot');
+    src: url('fonts/apple-sd-gothic-neo-regular-5a9f77e72cb1a-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/apple-sd-gothic-neo-regular-5a9f77e72cb1a-webfont.woff2') format('woff2'),
+         url('fonts/apple-sd-gothic-neo-regular-5a9f77e72cb1a-webfont.woff') format('woff'),
+         url('fonts/apple-sd-gothic-neo-regular-5a9f77e72cb1a-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 html, body {
   font-size: 16;
   max-width: 100%;
   height: 100%;
   overflow-x: hidden;
+  font-family: apple-sd-gothic-neoregular;
 }
