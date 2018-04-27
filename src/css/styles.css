@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'apple-sd-gothic-neoregular';
+    src: url('../fonts/apple-sd-gothic-neo-regular.eot') format('embedded-opentype'),
+         url('../fonts/apple-sd-gothic-neo-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/apple-sd-gothic-neo-regular-webfont.woff2') format('woff2'),
+         url('../fonts/apple-sd-gothic-neo-regular-webfont.woff') format('woff'),
+         url('../fonts/apple-sd-gothic-neo-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+  font-size: 16;
+  max-width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: apple-sd-gothic-neoregular;
+}
+
+#header {
+  position: fixed;
+  font-size: 2em;
+  padding: 40px 100px 40px;
+  top: 0px;
+  left: 0px;
+  box-sizing: border-box;
+  width: 100%;
+  background: linear-gradient(to bottom left, red, yellow);
+  color: white;
+  z-index: 1;
+  text-align: center;
+  border-bottom: 1px solid linear-gradient(to bottom left, red, yellow);;
+}
+
+#users {
+  position: relative;
+  top: 150px;
+}
+
+p {
+  background: linear-gradient(to bottom left, red, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.user {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin: 20px 100px 10px 100px;
+  padding: 20px;
+}
+
+.user h5 {
+  font-size: 1.5em;
+  padding: 20px 0px 30px;
+  background: linear-gradient(to bottom left, red, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.info-container {
+  min-width: 40%;
+  text-align: right;
+  padding-right: 50px;
+}
+
+.button-container {
+  min-width: 50%;
+  bottom: 0px;
+  border-left: 1px solid orange;
+}
+
+.action-button {
+  padding: 10px 40px 10px;
+  margin: 20px 0px 20px 50px;
+  border: 1px solid orange;
+  text-align: center;
+  font-size: 1.2em;
+  cursor: pointer;
+  width: 150px;
+  height: 20px;
+  background: linear-gradient(to bottom left, red, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.todo-container {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.album-container {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.todo-item {
+  position: relative;
+  margin: 5px 30px 5px;
+  font-size: 1em;
+  background: radial-gradient(red, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
