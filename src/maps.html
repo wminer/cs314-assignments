@@ -31,17 +31,11 @@
       </header>
       <div id="map" class="center-container">
       </div>
-      <script>
-      var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -34.397, lng: 150.644},
-          zoom: 8
-        });
-      }
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIKamQxnIGE7OkZv6sZAuIan4B-KmveFk&callback=initMap"
-    async defer></script>
+      <script src="maps.js">
+      </script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIKamQxnIGE7OkZv6sZAuIan4B-KmveFk&callback=initMap"
+       async defer>
+      </script>
       <footer class="contact-footer">
         <div class="contact-footer-container">
           <a href="https://www.instagram.com/minerwill/" class="social-link">
