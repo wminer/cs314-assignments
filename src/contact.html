@@ -40,23 +40,23 @@
               </h3>
             </span>
             <section class="forminputs">
-              <div class="inputs-container">
+              <div id="inputs-container" class="inputs-container">
                 <label class=> Name
-                  <input name="fullname" type="text" placeholder="Enter your full name" class="userinput">
+                  <input id="fullname" name="fullname" type="text" placeholder="Enter your full name" class="userinput">
                 </label>
                 <label> Email
-                  <input name="email" type="text" placeholder="Enter your email" class="userinput">
+                  <input id="email" name="email" type="text" placeholder="Enter your email" class="userinput">
                 </label>
                 <label> Phone Number (Optional)
-                  <input name="phonenumber" type="tel" placeholder="Enter your phone number" class="userinput">
+                  <input id="phone" name="phonenumber" type="tel" placeholder="Enter your phone number" class="userinput">
                 </label>
-                <div class="contact-div">
+                <div id="contact-div" class="contact-div">
                   Type your message below
                 </div>
                 <textarea cols="30" rows="7" maxlength="200" id="textbox"></textarea>
                 <br>
                 <div class="submit-div">
-                  <input type="submit" value="Send">
+                  <input id="submit" type="submit" value="Send">
                 </div>
               </div>
             </section>
@@ -77,5 +77,6 @@
         </div>
       </footer>
     </div>
+    <script src="contact.js"></script>
   </body>
 </html>
