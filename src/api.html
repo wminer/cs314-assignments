@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,8 +5,8 @@
     <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-    <link rel="shortcut icon" href="icons/favicon-envelope.ico" type="image/x-icon">
-    <title>Contact Me</title>
+    <link rel="shortcut icon" href="icons/favicon-rocket.ico" type="image/x-icon">
+    <title>API</title>
   </head>
   <body>
     <div class="page-content-container">
@@ -30,38 +29,8 @@
             </a>
         </nav>
       </header>
-      <div class="center-container">
-        <div class="contactimg">
-          <div class="contactform">
-            <span id="formtitle">
-              Let's connect.
-              <h3 id="formmsg">
-                Send me a message below
-              </h3>
-            </span>
-            <section class="forminputs">
-              <div class="inputs-container">
-                <label class=> Name
-                  <input name="fullname" type="text" placeholder="Enter your full name" class="userinput">
-                </label>
-                <label> Email
-                  <input name="email" type="text" placeholder="Enter your email" class="userinput">
-                </label>
-                <label> Phone Number (Optional)
-                  <input name="phonenumber" type="tel" placeholder="Enter your phone number" class="userinput">
-                </label>
-                <div class="contact-div">
-                  Type your message below
-                </div>
-                <textarea cols="30" rows="7" maxlength="200" id="textbox"></textarea>
-                <br>
-                <div class="submit-div">
-                  <input type="submit" value="Send">
-                </div>
-              </div>
-            </section>
-          </div>
-        </div>
+      <div class="center-container" id="center-container">
+        <img src="images/ron-swanson.gif"></img>
       </div>
       <footer class="contact-footer">
         <div class="contact-footer-container">
@@ -77,5 +46,6 @@
         </div>
       </footer>
     </div>
+    <script src="api.js"></script>
   </body>
 </html>
