@@ -105,10 +105,10 @@ nav a {
   padding-left: 50px;
   padding-right: 50px;
   text-shadow:
-  -0.5px -0.5px 0 #000,
-  0.5px -0.5px 0 #000,
-  -0.5px 0.5px 0 #000,
-  0.5px 0.5px 0 #000;
+  -0.69px -0.69px 0 #000,
+  0.69px -0.69px 0 #000,
+  -0.69px 0.69px 0 #000,
+  0.69px 0.69px 0 #000;
   cursor:pointer;
   transition: all 0.3s ease;
 }
